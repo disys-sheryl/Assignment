@@ -1,6 +1,6 @@
 
 
-Sheryl=gp.Google_pay("Sherylrajakumar@gmail.com","7904125152","AbishekThakur")
+Sheryl=gp.Google_pay("Sherylrajakumar@gmail.com","7904125152","SherylCatherine")
 Sheryl.open_gpay()
 Sheryl.email_verification()
 Sheryl.mobile_verification()
