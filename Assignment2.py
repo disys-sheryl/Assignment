@@ -20,11 +20,10 @@ data = {"customer": {"1000": {"ID": "1000", "name": "John Smith ", "DOB": "01/01
                           "Gender": "M", "Age": "25","Zip code": "08124-6565","Amount ": "1500.20"}}}
         
 for i in data.values():
-     #print(i)
-     for j in i.values():
-          for k,l in j.items():
-               if k == "Age" and int(l)>25:
-                    print(j,l)
-               else:
-                    print("No Customer Found in the Database")
-               break
+    for j in i.values():
+        for k,v in j.items():
+            if(k=="name"):
+                temp=v
+            if(k=="Age" and int(v)>25):
+                print(temp,k,v)
+
