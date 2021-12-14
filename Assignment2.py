@@ -21,9 +21,9 @@ data = {"customer": {"1000": {"ID": "1000", "name": "John Smith ", "DOB": "01/01
         
 for i in data.values():
     for j in i.values():
-        for k,v in j.items():
+        for k,l in j.items():
             if(k=="name"):
-                temp=v
-            if(k=="Age" and int(v)>25):
-                print(temp,k,v)
+                temp=l
+            if(k=="Age" and int(l)<25):
+                print(temp,k,l)
 
