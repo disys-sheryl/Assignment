@@ -1,34 +1,4 @@
 
-
-Sheryl=gp.Google_pay("Sherylrajakumar@gmail.com","7904125152","SherylCatherine")
-Sheryl.open_gpay()
-Sheryl.email_verification()
-Sheryl.mobile_verification()
-Sheryl.name_verification()
-Sheryl.otp_verification(25433,25433)
-Sheryl.Bank_verification()
-Sheryl.PanCard_Verification()
-Sheryl.set_Pin("7176")
-Sheryl.Enter_your_Pin(3465,3465)
-
-class Phone_pe(gp.Google_pay):                                                                                  
-    def __init__(self,Email_id,Phone_number,Name):
-        super().__init__(Email_id,Phone_number,Name)
-
-    def open_phonepe(self):
-        print("Phone pe")
-        
-Hope=Phone_pe("sheryl.cathy@gmail.com","9003085347","Sheryl")
-Hope.open_phonepe()
-Hope.mobile_verification()
-Hope.name_verification()
-Hope.otp_verification(780965,780965)
-Hope.Bank_verification()
-Hope.PanCard_Verification()
-Hope.set_Pin("676132")
-Hope.Enter_your_Pin(4576,4576)
-
-
         
 googlepay=[{"name":"abitha","gpaynum":7397266887,"type":"personal","transaction":"regular"},                       
            {"name":"aishwarya","gpaynum":7305341565,"type":"personal","transaction":"regular"},
